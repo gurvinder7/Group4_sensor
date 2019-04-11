@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_acc"
+            android:icon="@drawable/accelerometer"
+            android:title="Accelerometer Sensor" />
+        <item
+            android:id="@+id/nav_proxy"
+            android:icon="@drawable/proximity"
+            android:title="Proximity Sensor" />
+        <item
+            android:id="@+id/nav_light"
+            android:icon="@drawable/light"
+            android:title="Light Sensor" />
+        <item
+            android:id="@+id/nav_step"
+            android:icon="@drawable/step"
+            android:title="StepCounter Sensor" />
+        <item
+            android:id="@+id/nav_temp"
+            android:icon="@drawable/temperature"
+            android:title="Temp Sensor" />
+        <item
+            android:id="@+id/nav_gyro"
+            android:icon="@drawable/gyroscop1"
+            android:title="GyroScope Sensor" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_gest"
+                android:icon="@drawable/gesture"
+                android:title="Gesture" />
+            <item
+                android:id="@+id/nav_magnet"
+                android:icon="@drawable/direction"
+                android:title="Magnetometer" />
+        </menu>
+    </item>
+
+</menu>
